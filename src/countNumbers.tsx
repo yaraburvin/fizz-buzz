@@ -23,8 +23,7 @@ export default function ButtonGameControl() : JSX.Element {
     return (
         <>
         <h1>Fizz-Buzz game</h1>
-        <p>Game Field: {storedCount.map((value,index) => <span key={index}> {fizzBuzz(value)} </span>)}</p>
-        
+        <p>Game Field:   {storedCount.map((value,index) => <span key={index}> {fizzBuzz(value)} </span>)}</p>
         <hr />
         <button onClick={ combinedFunctions}>count!</button>
         <button onClick={resetTheGame}>Reset the game!</button>

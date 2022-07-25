@@ -1,7 +1,7 @@
-import  ButtonGameControl  from "./countNumbers"
+import ButtonGameControl from "./countNumbers";
 
 function App(): JSX.Element {
-  return <ButtonGameControl />
+  return <ButtonGameControl />;
 }
 
 export default App;
